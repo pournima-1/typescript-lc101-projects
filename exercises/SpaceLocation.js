@@ -1,12 +1,12 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+exports.__esModule = true;
 exports.SpaceLocation = void 0;
 // Paste in the provided code here:
-class SpaceLocation {
-    constructor(name, kilometersAway) {
+var SpaceLocation = /** @class */ (function () {
+    function SpaceLocation(name, kilometersAway) {
         this.name = name;
         this.kilometersAway = kilometersAway;
     }
-}
+    return SpaceLocation;
+}());
 exports.SpaceLocation = SpaceLocation;
-//# sourceMappingURL=SpaceLocation.js.map
